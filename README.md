@@ -1,3 +1,3 @@
-# errorspage
-web错误页
-[跳转至404页](https://blog.mpcloud.top/errorspage/404)
+# 隐私协议
+### 权限使用
+本应用绝不会申请任何高敏感权限
