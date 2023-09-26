@@ -1,38 +1,123 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <title>个人简介</title>
-    </head>
-    <body>
-        <div class="container mt-5"><!-- Personal Introduction -->
-            <div class="row">
-                <div class="col-md-8 mx-auto">
-                    <h1 class="text-center">Hi, 我是 <span class="text-primary">马平</span></h1>
-                    <h3 class="text-center">欢迎来到我的个人主页</h3>
-                    <hr>
-                    <p>我是马平，来自中国<strong>武汉</strong>，我热爱Java技术并且喜欢钻研新技术，但是我找不到工作，所以现在是一名小区<strong>保安</strong> .</p>
-                    <p><strong>爱好:</strong> 唱，跳，Rap，篮球</p>
-                </div>
-            </div> <!-- Social Media Section -->
-            <div class="row mt-5">
-                <div class="col-md-8 mx-auto">
-                    <h3 class="text-center">社交平台</h3>
-                    <hr>
-                    <ul class="list-group">
-                        <li class="list-group-item"><a href="coolmarket://www.coolapk.com/u/962507" target="_blank">CoolApk</a></li>
-                        <li class="list-group-item"><a href="https://github.com/sbmatch" target="_blank">Github</a></li>
-                    </ul>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>马平的简历</title>
+    <!-- 引入 Bootstrap 样式 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="text-center">
+            <h1>马平</h1>
+            <p>男 | 22岁 | 籍贯：随州</p>
+            <p>期望职位：开发 | 期望薪资：面谈 | 期望城市：武汉</p>
+            <p>联系方式：17371540154 | 邮箱：maping@mpcloud.top</p>
+          </div>
+          <hr />
+          <h3>教育经历</h3>
+          <div class="education">
+            <div class="school">
+              <p>
+                湖北工程职业学院&nbsp;&nbsp;建筑装饰工程技术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019-2022
+              </p>
             </div>
-        </div> <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
-        <footer class="fixed-bottom">
-            <p class="text-center"><a href="http://beian.miit.gov.cn/" target="_blank">鄂ICP备20008878号</a><br>版权所有 © 2023 mpcloud.top</p>
-        </footer>
-    </body>
+            <hr />
+            <h3>专业技能</h3>
+            <ul>
+              <li>
+                <strong>编程语言：</strong>Java(基础) 具备面向对象编程能力。
+              </li>
+              <li>
+                <strong>安卓开发：</strong
+                >熟悉Android平台，有丰富的Android应用开发经验。
+              </li>
+              <li>
+                <strong>团队协作：</strong
+                >良好的团队合作和沟通能力，能够有效地与团队成员合作完成项目。
+              </li>
+              <li>
+                <strong>问题解决：</strong
+                >具备快速解决问题的能力，善于分析和排查Bug。
+              </li>
+              <li>
+                <strong>自主学习：</strong
+                >热爱学习新技术，能够自主学习并应用到实际项目中。
+              </li>
+            </ul>
+            <hr />
+            <h3>个人项目 - DeviceOptimizeHelper</h3>
+            <p><strong>项目描述：</strong></p>
+            <p>
+              DeviceOptimizeHelper是我参与开发的一个多功能工具，旨在提供各种设备限制策略，以增强设备的安全性和可控性。该项目涵盖了60+种限制策略，包括禁止或允许安装应用、卸载应用、网络共享等，适用于Android平台。
+            </p>
+            <p><strong>我的角色：</strong></p>
+            <p>
+              在DeviceOptimizeHelper项目中，我担任了核心开发和可用性测试的角色。我的工作职责包括：
+            </p>
+            <ul>
+              <li>设计和实现各种设备限制策略，确保其正常运行和兼容性。</li>
+              <li>
+                使用异步线程和回调接口的方式获取返回值，以避免UI线程阻塞，保证了应用的流畅性。
+              </li>
+              <li>
+                使用反射技术遍历获取包含指定字符串的字段，以实现动态配置和更灵活的策略管理。
+              </li>
+              <li>
+                集成WeChatSDK，接入微信支付功能，使用户可以通过微信支付方式捐赠支持项目。
+              </li>
+              <li>协同团队成员，进行代码审查和合并请求，以确保代码质量。</li>
+              <li>
+                执行各种测试，包括功能测试、性能测试和用户界面测试，以验证应用程序的稳定性和可用性。
+              </li>
+            </ul>
+            <p><strong>使用的技术栈：</strong></p>
+            <ul>
+              <li>
+                <strong>编程语言：</strong>
+                主要使用Java进行Android应用程序的开发。
+              </li>
+              <li>
+                <strong>Android开发：</strong> 使用Android
+                Studio进行应用程序的开发和调试。
+              </li>
+              <li>
+                <strong>版本控制：</strong> 使用Git进行团队协作和版本控制。
+              </li>
+              <li>
+                <strong>反射技术：</strong>
+                使用反射遍历获取包含指定字符串的字段，实现动态配置。
+              </li>
+              <li>
+                <strong>异步编程：</strong>
+                使用异步线程和回调接口，以避免UI线程阻塞，保证应用的流畅性。
+              </li>
+              <li>
+                <strong>支付集成：</strong>
+                集成WeChatSDK，接入微信支付功能，为用户提供捐赠支持项目的便捷途径。
+              </li>
+
+            </ul>
+            <p>
+              DeviceOptimizeHelper是一个复杂的项目，需要深入的技术知识和团队合作。通过这个项目，我不仅提高了我的Android开发技能，还培养了解决问题和团队协作的能力。
+            </p>
+            <hr />
+            <h3>个人介绍</h3>
+            <p>
+              我是一名有责任心、热爱学习的软件开发人员。我具有扎实的编程基础和丰富的开发经验，我乐于挑战新事物，不断学习新知识，希望能够在贵公司找到一份工作，为公司的发展贡献自己的力量。
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 引入 Bootstrap 和 jQuery 脚本 -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    </div>
+  </body>
 </html>
